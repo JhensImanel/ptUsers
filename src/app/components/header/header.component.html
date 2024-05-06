@@ -1,0 +1,13 @@
+<form [formGroup]="searchForm" (ngSubmit)="getData()">
+  <div class="d-flex gap-3">
+    <input
+      class="form-control"
+      type="text"
+      formControlName="name"
+      placeholder="JhensImanel, rpinedaec83 ..."
+    />
+    <button type="submit" class="btn btn-danger">
+      <i class="fa-solid fa-magnifying-glass"></i>
+    </button>
+  </div>
+</form>
